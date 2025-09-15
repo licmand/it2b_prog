@@ -7,5 +7,7 @@ int main() {
     // Writing print statement to print hello world
     printf("Hello World");
 
+    int keepalive;
+    scanf("%d", &keepalive);
     return 0;
 }

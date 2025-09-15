@@ -10,6 +10,8 @@ int main() {
 			printf("%d\n", i);
 	}
 	
+	scanf("%d", &pocet);
 	return 0;
+	
 }
 
