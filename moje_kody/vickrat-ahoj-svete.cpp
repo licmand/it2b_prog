@@ -4,10 +4,11 @@ int main() {
     int nasobek;
 
     printf("zadej kolikrat se ma vypsat hello world: ");
-    scanf("&d", nasobek);
-    
+    scanf("%d", &nasobek);
+ 
     if (nasobek <= 0) {
         printf("error lol");
+        return 1;
     }
 
     else {
