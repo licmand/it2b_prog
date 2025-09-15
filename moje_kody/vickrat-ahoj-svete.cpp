@@ -8,6 +8,8 @@ int main() {
  
     if (nasobek <= 0) {
         printf("error lol");
+        int keepalive;
+        scanf("%d", &keepalive);
         return 1;
     }
 
