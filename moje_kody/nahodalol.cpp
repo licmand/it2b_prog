@@ -4,7 +4,7 @@
 int main() {
     srand(time(NULL));
 
-    int cislo = rand() % 100;
+    int cislo = rand() % 100; //od 0 do 99
 
     printf("nahdone cislo: %d\n", cislo);
     
