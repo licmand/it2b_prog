@@ -19,28 +19,29 @@ int main() {
 
     for (int i = 0; i < bude_volit; i++) {
         int r = rand() % 101; // číslo 0–100
-        if (r>=29.3){
+
+        if (r<=29.3){
             hlasy[0]++;
         }
-        else if(r>=49.8) {
+        else if(r<=49.8) {
             hlasy[1]++;
         }
-        else if (r>=63.2){
+        else if (r<=63.2){
             hlasy[2]++;
         }
-        else if (r>=74.3) {
+        else if (r<=74.3) {
             hlasy[3]++;
         }
-        else if (r>=84.3) {
+        else if (r<=84.3) {
             hlasy[4]++;
         }
-        else if (r>=90.3) {
+        else if (r<=90.3) {
             hlasy[5]++;
         }
-        else if (r>=95.8) {
+        else if (r<=95.8) {
             hlasy[6]++;
         }
-        else if (r>=100) {
+        else if (r<=100) {
             hlasy[7]++;
         }
         else {
