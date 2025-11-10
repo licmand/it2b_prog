@@ -6,7 +6,7 @@
 int main() {
     int i = 0;
     char znak[] = "Astolfo";
-    while (i < 7) {
+    while (znak[1] != "\0") {
         printf("%c\n", znak[i]);
         i++;
     }
