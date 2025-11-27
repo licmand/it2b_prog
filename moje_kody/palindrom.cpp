@@ -16,6 +16,7 @@ int main() {
         //printf("%d", i);
         string2[(delka - 1 - i)] = string1[i];
     }
+    string2[delka] = '\0';
     //printf("%s", string2);
     if (strcmp(string1, string2) == 0) {
         printf("\nje palindrom");
