@@ -25,23 +25,23 @@ main() {
             u++;
         }
     }
-    if (a>e && a>i && a>o && a>u) {
+    if (a>=e && a>=i && a>=o && a>=u) {
         nejcastejsi = 'a';
     }
-    if (e>a && e>i && e>o && e>u) {
+    if (e>=a && e>=i && e>=o && e>=u) {
         nejcastejsi = 'e';
     }
-    if (i>e && i>a && i>o && i>u) {
+    if (i>=e && i>=a && i>=o && i>=u) {
         nejcastejsi = 'i';
     }
-    if (o>e && o>i && o>a && o>u) {
+    if (o>=e && o>=i && o>=a && o>=u) {
         nejcastejsi = 'o';
     }
-    if (u>e && u>i && u>o && u>a) {
+    if (u>=e && u>=i && u>=o && u>=a) {
         nejcastejsi = 'u';
     }
 
-    printf("Nejcastejsı samohlaska: %c", nejcastejsi);
+    printf("Nejcastejsi samohlaska: %c", nejcastejsi);
 
 
     int keepalive;
